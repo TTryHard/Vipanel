@@ -18,7 +18,7 @@ function App() {
          
         </div>
         <div className="container">
-        <Route path="/" exact>
+        <Route path="/Vipanel" exact>
                 <Main/>
             </Route>
           <Switch>
