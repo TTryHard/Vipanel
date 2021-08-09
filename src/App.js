@@ -6,6 +6,7 @@ import Contacto from './Contacto';
 import Main from './Main'
 import Footer from './components/Footer';
 import Productos from './Productos';
+import logo from './assets/logo.png'
 function App() {
   return (
     <Router>
@@ -13,7 +14,7 @@ function App() {
         <Nav />
         <div className="container-fluid text-center back text-white">
         <h1 className="p-5">Vipanel</h1>
-          <img src="./logo.png"></img>
+          <img src={logo}></img>
          
         </div>
         <div className="container">

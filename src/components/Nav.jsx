@@ -1,10 +1,11 @@
 import React from 'react';
+import logo from '../assets/logo.png';
 
 const Nav = () =>{
     return(
         <nav className="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary ">
         <div className="container-fluid ">
-            <a href="/" className="navbar-brand"><img src="./logo.png" className="w-55 " alt="" /></a>
+            <a href="/" className="navbar-brand"><img src={logo} className="w-55 " alt="" /></a>
             <button type="button" className="navbar-toggler ">
                 <span className="navbar-toggler-icon" data-bs-toggle="collapse"
                 data-bs-target="#Menu"
